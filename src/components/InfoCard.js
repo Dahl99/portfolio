@@ -1,12 +1,12 @@
 import "./InfoCard.css";
 
-const InfoCard = () => {
+const InfoCard = ({ title, icon, text }) => {
 	return (
 		<div className="InfoCard">
-			<h1 style={{ color: "white" }}>About me</h1>
+			<h1 className="Card-title">{title}</h1>
 			<div className="Grid-container">
-				<image className="Card-image" />
-				<p className="Card-text" />
+				<img className="Card-image" src={icon} alt="Cannot display image" />
+				<p className="Card-text">{text}</p>
 			</div>
 		</div>
 	);

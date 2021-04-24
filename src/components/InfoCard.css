@@ -9,5 +9,23 @@
 }
 
 .Grid-container {
+	margin-left: 2rem;
+	margin-right: 2rem;
 	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 40px;
+	align-items: center;
+	justify-items: center;
+}
+
+.Card-title {
+	color: white;
+}
+
+.Card-image {
+	color: white;
+}
+
+.Card-text {
+	color: #96969b;
 }

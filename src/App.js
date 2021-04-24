@@ -1,10 +1,11 @@
 import "./App.css";
-import InfoCard from "./components/InfoCard";
+import ShowInfoCards from "./components/ShowInfoCards";
+import InfoCardData from "./components/InfoCardData";
 
 function App() {
 	return (
 		<div className="App">
-			<InfoCard />
+			<ShowInfoCards InfoCardData={InfoCardData} />
 		</div>
 	);
 }
