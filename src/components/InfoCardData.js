@@ -3,7 +3,7 @@ import github_logo from "../images/github_logo.png";
 import bitbucket_logo from "../images/bitbucket_logo.png";
 import contact_logo from "../images/contact_logo.png";
 
-export const InfoCardData = [
+const InfoCardData = [
 	{
 		title : "About me",
 		icon  : github_logo,
